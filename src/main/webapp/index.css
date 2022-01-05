@@ -1,0 +1,151 @@
+
+body{
+    font-family: Calibri, serif;
+    background-color:white;
+}
+.header {
+    background: lightblue;
+    color: royalblue;
+    position: relative; /* https://stackoverflow.com/questions/16832334/stick-button-to-right-side-of-div/16832402 */
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+
+}
+.header1{
+    color: dodgerblue;
+    font-size: 18px;
+
+}
+.header2{
+    color:deepskyblue;
+    font-size: 15px;
+}
+.header3{
+    color:lightslategrey;
+    font-size: 12px;
+}
+.button1{
+    border-radius: 50%;
+    border-color: black;
+    border-width: 2px;
+    padding: 10px;
+    background-color: lightskyblue;
+    font-weight: bold;
+
+
+    /*https://stackoverflow.com/questions/16832334/stick-button-to-right-side-of-div/16832402 */
+}
+#LogudButton{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+div{
+    color:black;
+
+}
+
+h1{
+    color:cornflowerblue;
+}
+
+.button2{
+    border-radius: 50%;
+    border-color: black;
+    border-width: 2px;
+    padding: 10px;
+    background-color: lightskyblue;
+    position: absolute;
+    right: 100px;
+    top: 15px;
+}
+.overskriftside{
+    color:deepskyblue;
+    text-align: center; /* https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/ */
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
+#sundoverskrift{
+    position: relative;
+
+}
+
+#loginkasse2{
+    position: relative;
+    width: 100px;
+
+ }
+
+#bruger1{
+    position:absolute;
+    width:100px;
+    margin-bottom: 50px
+}
+
+#brugernavn1{
+
+}
+#loginknap{
+    position: absolute;
+    float: right;
+    /*
+    RET DER HER MERE
+     */
+    /* margin-left: 210px ;
+    margin-top:20px;
+
+    */
+}
+#username1{
+    float: left;
+
+}
+.button4{
+    border-radius: 50%;
+    border-color: black;
+    border-width: 2px;
+    padding: 10px;
+    background-color: lightskyblue;
+    right: 100px;
+    top: 15px;
+}
+#cprnummer{
+    margin-left: 100px ;
+    margin-top:20px;
+}
+
+#loginkasse2{
+margin-left: 35%; position: absolute; margin-top: 10px;
+}
+#loginvalider{
+    margin-left: 210px ;
+    margin-bottom:300px;
+}
+#hentkonsside{
+    width: 100%;
+    position: relative;
+}
+#hentkonskasse{
+    position: absolute;
+    margin-left: 30%;
+    transform: translate(-50%);
+    margin-top: 30px;
+    float: left;
+
+}
+#konsIDatabase{
+    position:absolute;
+    float: left;
+    margin-left: 60%;
+    margin-top: 30px;
+}
+
+#hentkonsknap{
+    width: 100%;
+}
